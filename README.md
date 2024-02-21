@@ -20,7 +20,15 @@ Note: I overrodde the correct functions to go from an abstract class to a class.
 Extra content.
 
 Create a map class that draws the player. Add a virtual draw and update function to the Pawn class.
-In the player class create an input to move the character
+In the player class create an input to move the character.
+Note: To do this I need enviroment objects. This required me to review some of the older code.
+I created an object abstract class.
+I then moved the Draw and Update declarations.
+I added a ground class, fixed up my includes and added a GroundType enum.
+The enum will provide a simple way to draw different characters.
+I matched the enum value with the draw for the ground.
+I added a game manager to contain the logic for the game.
+I have also added a scene manager to help contain testing code.
 
 Extra Extra content
 

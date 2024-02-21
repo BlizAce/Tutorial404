@@ -1,5 +1,6 @@
 #pragma once
 #include "Pawn.h"
+
 class Monster : public Pawn
 {
 public:
